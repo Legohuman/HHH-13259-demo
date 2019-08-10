@@ -9,7 +9,6 @@ public class Main {
 
   public static void main(String[] args) {
     BookDao b = new BookDao();
-//    b.getBooksNative();
     b.getBooks();
   }
 }
